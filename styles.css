@@ -59,7 +59,7 @@ section {
     text-decoration: line-through;
 }
 
-#btn {
+.btn {
     border: white;
     border-radius: 15px;
     width: 200px;
@@ -70,4 +70,17 @@ section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: large;
+    overflow: hidden;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+@media (max-width: 450px) {
+    .box {
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
